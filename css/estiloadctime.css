@@ -1,11 +1,78 @@
-video{
+body{
+
+	background-color: #003300;
+	
+}
+
+.background img{
 
 	position: relative;
+	
+	margin: 25px 200px 0 200px;
+	width: 70%;
+	height: 600px;
 
 }
 
-.tudao{
-	top: 0;
+.inscricao_form{
+
+	position: absolute;
+	top: 50px;
+	margin: 0 40%;
+	text-align: center;
 
 }
+
+.cinturaotimes img{
+
+	position: absolute;
+
+	bottom: 10px;
+	left: 25%;
+	width: 750px;
+	margin: 0;
+}
+
+.inscricao_form h1,p {
+
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	color: #fff;
+	
+}
+
+
+.submit{
+
+	margin-top:15px;
+}
+
+.inscricao_form input{
+
+	border-radius: 5px;
+
+
+}
+
+
+.inscricao_confirmacao{
+	
+  	visibility: hidden;
+  	opacity: 0;
+  	transition: visibility 0s 2s, opacity 2s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
