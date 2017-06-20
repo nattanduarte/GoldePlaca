@@ -17,7 +17,7 @@
 			<ul>
 			
 				<li><a href="adicionar_time.php">Adicionar time</a></li>
-				<li><a href="">Adicionar resultado</a></li>
+				<li><a href="adicionar_resultado.php">Adicionar resultado</a></li>
 				<li><a href="">Mostrar tabela</a></li>
 			</ul>
 		</nav>
