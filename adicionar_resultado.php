@@ -3,23 +3,34 @@
 <head>
 	<title>Gerenciador de Campeonatos</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="./css/">
+	<link rel="stylesheet" type="text/css" href="./css/estiloadcresult.css"/>
+	<link rel="icon" href="./img/logo.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon" />
 </head>
 <body>
 
+	<figure class="background">
+		
+			<img src="./img/presentationfundo.jpg">
 
 
-	<div class="">
+		</figure>
+
+		<figure class="cinturaotimes">
+				<img src="./img/cinturaotimes.png">
+		</figure>
+
+	<div class="form">
 	<form action="adicionar_resultado.php" method="get">
 		<h1>Adicione o resultado!</h1>
 		<br/>
-		Nome do time mandante:<input type="text" name="timem" value=""/>
+		Nome do time mandante:<input type="text" name="timem" />
 		<br/>
-		Placar do time mandante:<input type="number" name="resultado_timem" value=""/>
+		Placar do time mandante:<input type="number" name="resultado_timem" />
 		<br/>
-		Nome do time visitante:<input type="text" name="timev" value=""/>
+		Nome do time visitante:<input type="text" name="timev" />
 		<br/>
-		Placar do time visitante:<input type="number" name="resultado_timev" value=""/>
+		Placar do time visitante:<input type="number" name="resultado_timev" />
 		<br/>
 		<input type="submit"/>
 	</form>

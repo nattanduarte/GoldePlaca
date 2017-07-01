@@ -4,6 +4,8 @@
 	<title>Gerenciador de Campeonatos</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./css/estiloadctime.css">
+	<link rel="icon" href="./img/logo.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon" />
 </head>
 <body>
 
@@ -18,7 +20,7 @@
 
 		<figure class="cinturaotimes">
 				<img src="./img/cinturaotimes.png">
-			</figure>
+		</figure>
 
 		<form class="inscricao_form" action="adicionar_time.php" method="get">
 			<h1>Adicione seu time!</h1>
