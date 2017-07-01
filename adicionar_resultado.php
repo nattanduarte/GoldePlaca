@@ -17,9 +17,9 @@
 		<br/>
 		Placar do time mandante:<input type="number" name="resultado_timem" value=""/>
 		<br/>
-		Nome do time mandante:<input type="text" name="timev" value=""/>
+		Nome do time visitante:<input type="text" name="timev" value=""/>
 		<br/>
-		Placar do time mandante:<input type="number" name="resultado_timev" value=""/>
+		Placar do time visitante:<input type="number" name="resultado_timev" value=""/>
 		<br/>
 		<input type="submit"/>
 	</form>
@@ -68,9 +68,12 @@
 					
 						while(!feof($handle_resultado)){
 							$linha = trim( fgets($handle_resultado) );
-								$arquivo .= $linha . PHP_EOL;	
+							$arquivo .= PHP_EOL . $linha ;	
 							$resultado=$timem .';'. $timev.';'.$resultado_timem.';'.$resultado_timev;
-							if($linha==$resultado){
+
+							$a=explode(";", $linha);
+
+							if($a[0]==$timem and $a[1]==$timev){
 								
 								echo "O resultado deste jogo já foi adicionado";	
 								die;
@@ -78,7 +81,7 @@
 						
 						}			
 					
-					$a = $timem .';'. $timev.';'.$resultado_timem.';'.$resultado_timev. PHP_EOL . $arquivo;
+					$a = $timem .';'. $timev.';'.$resultado_timem.';'.$resultado_timev . $arquivo;
 			
 					file_put_contents($caminhoArquivo, $a );
 					

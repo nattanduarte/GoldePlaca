@@ -52,12 +52,12 @@
 						die("<p class='erro-adicao'>O time $ntime já está cadastrado, confira a nossa <a href='./documentos/times.txt'>tabela</a></p>");
 					}
 
-					$arquivo .= $linha . PHP_EOL;
+					$arquivo .= PHP_EOL . $linha;
 				}
 
 				fclose($handle);
 
-				$a = $ntime . PHP_EOL . $arquivo;
+				$a = $ntime . $arquivo;
 				file_put_contents($caminhoArquivo, $a );
 				
 				echo "<p class='sucesso-adicao'>Time $ntime inscrito com sucesso!</p>";
