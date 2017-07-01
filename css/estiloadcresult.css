@@ -1,0 +1,38 @@
+body{
+
+	background-color: #003300;
+	
+}
+
+.form{
+
+	position: absolute;
+	top: 50px;
+	margin: 0 40%;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #fff;
+}
+
+.form input{
+
+	border-radius: 50px;
+	margin-top: 15px;
+}
+.background img{
+
+	position: relative;
+	margin: 25px 200px 0 220px;
+	width: 70%;
+	height: 600px;
+
+}
+
+.cinturaotimes img{
+
+	position: absolute;
+	bottom: 0px;
+	left: 33%;
+	width: 500px;
+	margin: 0;
+}

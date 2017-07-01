@@ -1,0 +1,62 @@
+body{
+
+	background-color: #003300;
+	
+}
+
+
+.background img{
+
+	position: relative;
+	
+	width: 100%;
+	height: 650px;
+
+}
+h1{
+	position: absolute;
+	top:25px;
+	left: 36%;
+	font-family: Arial, Tahoma, sans-serif;
+	color: #fff;
+	padding-left: 45px;
+}
+
+span{
+
+	color: #33ff33;
+}
+.table{
+
+	position: absolute;
+	left: 35%;
+	top: 150px;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #fff;
+	border:2px solid #FFFFFF;
+	border-radius: 30px;
+}
+
+.line{
+
+	border-right: 2px solid #FFFFFF;
+	border-top: 2px solid #FFFFFF;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 1.0em;	
+}
+
+.line:last-child{
+
+	border-right: none;
+
+}
+
+.table th{
+
+	border-top: none;	
+}
+
+
+
